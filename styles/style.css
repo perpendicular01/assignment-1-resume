@@ -291,3 +291,113 @@ main {
     text-decoration-line: underline;
 }
 
+
+/* SUPPORT */
+
+.support{
+    
+    text-align: center;
+    background-image: url(../assets/handshake.jpg);
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.sup{
+    padding: 64px 48px;
+}
+
+.sup-info{
+    padding: 0 157px;
+    margin-bottom: 28px;
+}
+
+.sup-title {
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.sup-details{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    
+}
+
+.sup-help{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 0 180px;
+   
+}
+
+.sup-textarea{
+    border: none;
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    width: 548px;
+    font-size: 16px;
+    height: 30px;
+    padding: 18px 30px;
+    margin-bottom: 24px;
+    font-weight: 400;
+
+    
+}
+
+.sub-submit{
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 120px;
+    height: 70px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px
+}
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.foot-details{
+    margin: 32px 150px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foot-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.foot-title{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
