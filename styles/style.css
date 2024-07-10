@@ -139,13 +139,18 @@ main {
 .dev-block{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     gap: 32px;
     padding: 48px 48px 48px 48px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     
 }
+
+.dev-block > div{
+    background-color: white;
+    border-radius: 10px;
+}
+
 .dev-block1{
     display: flex;
     gap: 100px;
@@ -216,5 +221,73 @@ main {
 .jhankar{
     width: 100%;
     padding: 32px;
+}
+
+
+
+/* targert */
+.target{
+    margin-bottom: 111px;
+}
+
+.target-details{
+    max-width: 946px;
+    text-align: center;
+    margin: 0 97px 60px 97px;
+}
+.target-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+
+}
+
+.target-items{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.item1{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.item2{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.item3{
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.skill-title{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 8px;
+}
+.skill-description{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 24px;
+
+}
+
+.skill-link {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    text-decoration-line: underline;
 }
 
