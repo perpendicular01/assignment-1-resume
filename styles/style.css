@@ -384,7 +384,7 @@ main {
 }
 
 .foot-details{
-    margin: 32px 150px 0px 150px;
+    padding: 25px 150px 25px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
