@@ -5,6 +5,17 @@
 }
 
 
+/* common */
+.des{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 60%;
+    
+}
+
+
 /* header */
 
 nav{
@@ -45,27 +56,34 @@ nav{
 }
 
 .banner-content{
-    max-width: 998px;
-    padding: 26px 50px 44px 350px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
 }
 
 .banner-title{
     color: rgb(13, 19, 33);
     font-size: 48px;
     font-weight: 800;
-    margin-top: 32px;
+    text-align: center;
+    width: 70%;
 }
 .banner-des {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
-    margin-top: 24px;
+    text-align: center;
+    width: 60%;
+    margin-top: -15px;
+    opacity: 0.7;
 }
 .banner-btn{
     text-align: center;
     margin-top: 32px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    margin-top: -15px;
 }
 
 .btn-connect {
@@ -75,5 +93,128 @@ nav{
     font-weight: 600;
     text-align: center;
     border-radius: 8px;
+    border: none;
     background: rgb(13, 19, 33);
 }
+
+
+/* .................................................................. */
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+.why-dev{
+    padding: 80px 90px;
+    margin-top: 74px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin-bottom: 88px;
+    
+}
+.dev-head{
+    max-width: 852;
+    margin: 0 47px 48px 47px;
+    
+
+}
+.dev-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.dev-des {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+.dev-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 48px 48px 48px 48px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    
+}
+.dev-block1{
+    display: flex;
+    gap: 100px;
+    
+}
+
+
+
+.block-title{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 25px;
+    font-weight: 700;
+    text-align: left;
+    /* padding: 0 87px 68px 0; */
+    width: 90%;
+    margin-bottom: 16px;
+
+}
+
+.block-des{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+.web-btn {
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    font-size: 20px
+
+}
+
+.dev-block2{
+    display: flex;
+    gap: 50px;
+}
+
+
+/* inspiration */
+
+.ins-head{
+    max-width: 852px;
+    text-align: center;
+    margin: 0 144px 48px 144px;
+}
+
+.ins-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.ins-body{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    
+    margin-bottom: 150px;
+}
+
+.jhankar{
+    width: 100%;
+    padding: 32px;
+}
+
